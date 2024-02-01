@@ -119,6 +119,48 @@
 .box {
   margin-top: 20px; /* Ajustez la marge ici */
 }
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.table-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-item img {
+  height: 350px; /* Ou toute autre hauteur fixe souhaitée */
+  object-fit: cover; /* Cela garantit que l'image couvre la zone sans perdre ses proportions */
+   /* Cela garantit que l'image s'étire pour couvrir la largeur de son conteneur */
+}
     </style>
     
     <!-- Insérez les scripts de la bibliothèque d'icônes Bootstrap si vous ne les avez pas déjà -->
@@ -264,14 +306,26 @@
 </section><!-- End About Section -->
 
 <!-- ======= Pourquoi Rejoindre Le Club Section ======= -->
+<section id="why-us" class="why-us" >
+  <div class="container">
+
+    <div class="section-title text-center">
+      <h2>Nos <span> Leaders cibles </span></h2>
+      <h2 style="width: 100%; color: black; font-size: 28px; font-weight: 100   ;">Le Club des Leaders SST d’Afrique est un espace de concertations conviviales désigné par et pour les africains. C’est pourquoi il est ouvert aux africain(e)s aux Chefs et/ou Hauts Cadres d’entreprise basée en Afrique ainsi qu’aux étrangers afro-descendants propriétaire ou co-propriétaire (51% au moins) d’entreprise basée en Afrique.</h2>
+    </div>
+
+  </div>
+</section><!-- End Pourquoi Rejoindre Le Club Section -->
+
+<!-- ======= Pourquoi Rejoindre Le Club Section ======= -->
 <section id="why-us" class="why-us">
   <div class="container">
 
+    
     <div class="section-title text-center">
       <h2>Pourquoi rejoindre Le Club <span>des leaders SST d'Afrique</span></h2>
       <p>Parce que vous serez parmi les cent privilégiés à vous asseoir à cette table de concertation qui vous offre pour avantages de :</p>
     </div>
-
     <div class="row justify-content-center">
       <div class="col-lg-4 d-flex align-items-stretch mt-4">
         <div class="box text-center">
@@ -422,7 +476,62 @@
         </div>
       </div>
     </div>
+    <div class="section-title text-center flex-column ">
+      <h2 style="width: 100%; color: black; font-size: 28px; font-weight: 100   ;">La qualité de membre du Club des Leaders SST donne automatiquement droit d’accès à quelques privilèges annuels sur certains évènements.</h2>
+      <div class="table-responsive flex-column">
+        <table class="styled-table justify-content-center ">
+          <thead>
+            <tr>
+              <th>Événements</th>
+              <th>Membres Leaders SST</th>
+              <th>Non membres</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ateliers</td>
+              <td>✔</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Tables de concertation</td>
+              <td>✔</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Formations</td>
+              <td>✔</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Conférences</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <td>Activités de réseautage</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <td>Séminaires</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <td>Soirées de Gala</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+    </div>
   </div>
+  
+
+</div>
 </section><!-- End Comment Nous Rejoindre Section -->
 
 
@@ -538,7 +647,7 @@
 
     <div class="section-title">
       <h2>Participez à Nos <span>Événements</span></h2>
-      <p>Découvrez les prochains événements organisés par le Club des Leaders SST Africains pour promouvoir la sécurité et la santé au travail.</p>
+      <p>Découvrez les prochains événements organisés par le Club des Leaders SST d'Afrique pour promouvoir la sécurité et la santé au travail.</p>
     </div>
 
     <div class="events-slider swiper">
@@ -799,7 +908,7 @@
   <div class="container">
 
     <div class="section-title">
-      <h2><span>Contactez</span> le Club des Leaders SST Africains</h2>
+      <h2><span>Contactez</span> le Club des Leaders SST d'Afrique</h2>
       <p>N'hésitez pas à nous contacter pour toute question, information ou collaboration. Nous sommes là pour promouvoir la sécurité et la santé au travail en Afrique.</p>
     </div>
   </div>
@@ -865,7 +974,7 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
   <div class="container">
-    <h3>Club des Leaders SST Africains</h3>
+    <h3>Le Club des Leaders SST d'Afrique</h3>
     <p>Nous sommes dédiés à la promotion et au développement de la sécurité et de la santé au travail en Afrique. Rejoignez-nous pour faire une différence.</p>
     <div class="social-links">
       <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -875,7 +984,7 @@
       <!-- Autres liens sociaux si nécessaire -->
     </div>
     <div class="copyright">
-      &copy; Droits d'auteur <strong><span>Club des Leaders SST Africains</span></strong>. Tous droits réservés
+      &copy; Droits d'auteur <strong><span>Le Club des Leaders SST d'Afrique</span></strong>. Tous droits réservés
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
